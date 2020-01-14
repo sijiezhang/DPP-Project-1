@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+<title>Home Page</title> 
+
+<meta charset = "utf-8">
+<link rel="stylesheet" href="css/myStyle.css">
+    
+    <style>
+
+        address{
+        display: block;
+        color: greenyellow;
+        border: 2px solid black; 
+
+        }
+</style>
+</head>
+<body>
+
+    <ul id="menu">
+        <a href="index.html"> <li>Home</li></a>
+        <a href="about.html"> <li>About</li></a>
+        <a href="student.html"> <li>Students</li></a>
+        <a href="contact.html"> <li>Contact</li></a>
+    </ul>
+
+
+<div class="container">
+<h1>Contact</h1>
+ 
+
+
+    <div id="formDiv">
+    <form action="mailto:sjzhang100@gmail.com method="post enctype="text/plain" class="myForm">
+
+
+        <label>Name:</label>
+        <input type="text" name="name" required>
+        <label>ID:</label>
+        <input type="number" name="ID" required>
+        <br>
+        <label>Gender:</label>
+        Female:<input type="radio" name="gender" value="female" >
+        Male:<input type="radio" name="gender" value="male" >
+        Other:<input type="radio" name="gender" value="other" >      
+        <br>
+        <label>Mobile:</label>
+        <input type="tel" name="mobile" required>
+        <br>
+        <label>Phone:</label>
+        <input type="tel" name="phone">
+        <br>
+        <label>Email:</label>
+        <input type="email" name="email" required>
+        <br>
+        <label>Message:</label>
+        <textarea name="message"></textarea>
+         <br>
+        <input type="submit" value="Submit" class="btn1">
+    </form>
+
+
+    </div>
+    <div id="addressDiv">
+    <address>
+        JustIT Training <br>
+        2nd Floor, St Clares <br>
+        London, EC3N 1DD <br>
+        email:<a href="mailto:info@justit.co.uk"> info@justit.co.uk
+        </a><br>
+        Phone:<a href="tel:516584354">516584354</a>
+    </address>
+    </div>
+    <hr width="50">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4966.905618874504!2d-0.025268123652907357!3d51.50490819668987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487602b9e3786fff%3A0x1860aa0400595186!2sLondon%20E14%205AJ!5e0!3m2!1sen!2suk!4v1579012034731!5m2!1sen!2suk" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+   </div >
+    <div class="clear">
+<footer >
+    <p style="text-align: center; ">&copy; Just IT Training and apprentiship</p></footer>
+    </div>
+    
+</body>
+</html>

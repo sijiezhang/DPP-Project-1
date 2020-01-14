@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.imImages{
+    position: relative;
+}
+
+body{
+    margin:0;
+    background: #41b3a3;
+    color: black;
+    font-family: 'Lato', sans-serif;
+}
+
+
+h1{
+    color: black;
+    border-bottom: 2px solid black;
+    border-right: 2px dotted black;
+    padding: 30px 0px 0px 0px;
+}
+
+#menu{
+    text-align: right;
+    background-color: burlywood;
+    font-size: 20px;
+    padding: 20px;
+    margin: 0px;
+    overflow: hidden;
+
+}
+
+#contents{
+
+    font-size: 10px;
+}
+#menu li{
+    display: inline;
+    padding: 30px;
+}
+#menu a{
+    text-decoration: none;
+}
+
+a li:hover{
+    color: black;
+    background-color: aqua;
+}
+a li:active{
+    color: red;
+}
+iframe{
+display: block;
+margin: auto;
+}
+
+footer{
+background-color: #807e34;
+padding: 5px;
+
+}
+
+#student_table{
+width: 100%;
+text-align: center;
+
+}
+
+.myForm label{
+
+display: block;
+}
+
+.myForm input[type="text"],.myForm input[type="tel"],.myForm input[type="number"],.myForm input[type="email"],.myForm textarea{
+width: 90%;
+padding: 5px;
+
+}
+
+
+#formDiv{
+width: 75%;
+float: left;
+}
+
+#addressDiv{
+    width: 25%;
+    float: left;
+    margin-top: 20px;
+}
+
+
+.clear{
+clear: both;
+}
+
+.btn1
+{
+background-color: cornflowerblue;
+color: black;
+padding: 10px;
+border: none;
+font-weight: bold;
+}
+
+
+
+#stdent_table table{
+border-color: black;
+border-bottom-width: thick;
+}
